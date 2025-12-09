@@ -11,9 +11,9 @@ const GeneralBtn = ({title}) => {
     });
 
     if (title === "Editar") {
-        console.log("Altamirano");   // tu apellido
+        console.log("Altamirano");  
     } else if (title === "Crear") {
-        console.log("Nicole");       // tu nombre
+        console.log("Andrea"); 
     }
 
     return <button className={styles.btn} style={{"--btn--color":color}}>{title} </button>;
